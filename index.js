@@ -9,7 +9,7 @@ const path=require('path');
 const PORT=process.env.PORT || 5005;
 
 
-const getWeather=require('./route/getweather');
+const getWeather=require('./route/getWeather');
 
 const app=express();
 
