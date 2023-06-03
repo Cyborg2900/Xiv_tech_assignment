@@ -3,7 +3,7 @@ const express=require('express');
 const router=express.Router();
 const fetch=require('node-fetch');
 
-const KEY=process.env.KEY ||"3a9b7fefa9989126c19d80158b2a71f0";
+const KEY=process.env.KEY;
 
 
 
