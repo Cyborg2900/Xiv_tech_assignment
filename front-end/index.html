@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Weather App</title>
+</head>
+<body id="body_1">
+    <div id="card">
+        <div id="search_bar">
+            <input type="text" id="search_bar_id">
+            <button id="search_btn" onclick="get_Weather()">
+                <img src="/src/images/icons/search.svg" alt="search icon" id="search_btn_icon">
+            </button>
+        </div>
+        <div class="weather_box">
+            <div id="city">Weather in Dehradun</div>
+
+            <div id="temp">temperature</div>
+        </div>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+</html>
