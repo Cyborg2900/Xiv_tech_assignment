@@ -6,7 +6,7 @@ async function getData(city){
     console.log("inside get data ");
     let cities=[]; // since the api call takes an array we have to modify this to get an array 
     cities.push(city)
-    fetch("http://localhost:5005/getWeather", {
+    fetch("https://xiv-assignment.onrender.com/getWeather", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
